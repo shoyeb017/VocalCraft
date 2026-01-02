@@ -1,0 +1,31 @@
+# VocalCraft Dependencies
+# Install with: pip install -r requirements.txt
+
+# GUI Framework
+customtkinter>=5.2.0
+
+# Audio Recording
+pyaudio>=0.2.13
+
+# Audio Analysis
+librosa>=0.10.0
+numpy>=1.24.0
+
+# Speech Recognition
+SpeechRecognition>=3.10.0
+
+# Text Similarity
+textdistance>=4.5.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Audio file handling (usually comes with Python)
+# wave - built-in
+
+# Database (usually comes with Python)
+# sqlite3 - built-in
+
+# Optional: For better audio support on some systems
+# soundfile>=0.12.0
+# sounddevice>=0.4.6

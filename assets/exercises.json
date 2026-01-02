@@ -1,0 +1,258 @@
+{
+  "categories": [
+    {
+      "id": "breathing",
+      "name": "Breathing Exercises",
+      "description": "Foundational exercises to improve breath control and support for speech.",
+      "icon": "🌬️",
+      "exercises": [
+        {
+          "id": "breath_001",
+          "text": "Take a deep breath in through your nose, hold for 3 seconds, then slowly exhale through your mouth.",
+          "difficulty": 1,
+          "targetDuration": 10,
+          "instructions": "Focus on slow, controlled breathing. Repeat 5 times."
+        },
+        {
+          "id": "breath_002",
+          "text": "Breathe in deeply and say 'AHHH' for as long as you can on one breath.",
+          "difficulty": 1,
+          "targetDuration": 15,
+          "instructions": "Try to maintain a steady volume throughout."
+        },
+        {
+          "id": "breath_003",
+          "text": "Take a breath and count from 1 to 10 slowly on a single exhale.",
+          "difficulty": 2,
+          "targetDuration": 20,
+          "instructions": "Keep your voice steady and even."
+        },
+        {
+          "id": "breath_004",
+          "text": "Inhale deeply and hum continuously while exhaling.",
+          "difficulty": 2,
+          "targetDuration": 15,
+          "instructions": "Feel the vibration in your lips and nose."
+        },
+        {
+          "id": "breath_005",
+          "text": "Practice diaphragmatic breathing: Place hand on belly, breathe so your belly rises, not your chest.",
+          "difficulty": 3,
+          "targetDuration": 30,
+          "instructions": "Repeat for 10 breath cycles."
+        }
+      ]
+    },
+    {
+      "id": "vowels",
+      "name": "Vowel Sounds",
+      "description": "Exercises to improve clarity and control of vowel pronunciation.",
+      "icon": "🔤",
+      "exercises": [
+        {
+          "id": "vowel_001",
+          "text": "A - E - I - O - U",
+          "difficulty": 1,
+          "targetDuration": 10,
+          "instructions": "Say each vowel clearly and hold for 2 seconds."
+        },
+        {
+          "id": "vowel_002",
+          "text": "EE - OO - AH - EH - OH",
+          "difficulty": 1,
+          "targetDuration": 10,
+          "instructions": "Exaggerate your mouth movements for each sound."
+        },
+        {
+          "id": "vowel_003",
+          "text": "Say 'BAY - BEE - BYE - BOW - BOO' slowly.",
+          "difficulty": 2,
+          "targetDuration": 12,
+          "instructions": "Focus on the transition between the consonant and vowel."
+        },
+        {
+          "id": "vowel_004",
+          "text": "Alternate between 'EE' and 'OO' sounds: EE-OO-EE-OO-EE-OO",
+          "difficulty": 2,
+          "targetDuration": 15,
+          "instructions": "Watch your lip movement in a mirror."
+        },
+        {
+          "id": "vowel_005",
+          "text": "Say 'ME - MAY - MY - MOW - MOO' with emphasis on each vowel.",
+          "difficulty": 2,
+          "targetDuration": 12,
+          "instructions": "Keep your jaw relaxed and open."
+        },
+        {
+          "id": "vowel_006",
+          "text": "Practice diphthongs: OY (boy), OW (cow), AY (day), EYE (my)",
+          "difficulty": 3,
+          "targetDuration": 15,
+          "instructions": "Notice how your mouth changes position during each sound."
+        }
+      ]
+    },
+    {
+      "id": "short_sentences",
+      "name": "Short Sentences",
+      "description": "Practice speaking simple sentences with clarity and proper pacing.",
+      "icon": "💬",
+      "exercises": [
+        {
+          "id": "sentence_001",
+          "text": "Hello, how are you today?",
+          "difficulty": 1,
+          "targetDuration": 5,
+          "instructions": "Speak naturally with a friendly tone."
+        },
+        {
+          "id": "sentence_002",
+          "text": "The sun is shining bright.",
+          "difficulty": 1,
+          "targetDuration": 5,
+          "instructions": "Focus on clear pronunciation of each word."
+        },
+        {
+          "id": "sentence_003",
+          "text": "I would like a glass of water, please.",
+          "difficulty": 2,
+          "targetDuration": 6,
+          "instructions": "Practice polite requests with proper intonation."
+        },
+        {
+          "id": "sentence_004",
+          "text": "The quick brown fox jumps over the lazy dog.",
+          "difficulty": 2,
+          "targetDuration": 8,
+          "instructions": "This pangram contains every letter of the alphabet."
+        },
+        {
+          "id": "sentence_005",
+          "text": "She sells seashells by the seashore.",
+          "difficulty": 3,
+          "targetDuration": 6,
+          "instructions": "A classic tongue twister - start slow and speed up."
+        },
+        {
+          "id": "sentence_006",
+          "text": "Peter Piper picked a peck of pickled peppers.",
+          "difficulty": 3,
+          "targetDuration": 7,
+          "instructions": "Focus on the 'P' sounds without spitting."
+        },
+        {
+          "id": "sentence_007",
+          "text": "Red lorry, yellow lorry, red lorry, yellow lorry.",
+          "difficulty": 3,
+          "targetDuration": 8,
+          "instructions": "Practice the 'L' and 'R' sounds carefully."
+        },
+        {
+          "id": "sentence_008",
+          "text": "How much wood would a woodchuck chuck if a woodchuck could chuck wood?",
+          "difficulty": 4,
+          "targetDuration": 10,
+          "instructions": "A challenging tongue twister for advanced practice."
+        }
+      ]
+    },
+    {
+      "id": "consonants",
+      "name": "Consonant Drills",
+      "description": "Targeted exercises for difficult consonant sounds.",
+      "icon": "🗣️",
+      "exercises": [
+        {
+          "id": "consonant_001",
+          "text": "PA - TA - KA - PA - TA - KA",
+          "difficulty": 1,
+          "targetDuration": 8,
+          "instructions": "Repeat this sequence 5 times, getting faster each time."
+        },
+        {
+          "id": "consonant_002",
+          "text": "LA - LA - LA - RA - RA - RA",
+          "difficulty": 2,
+          "targetDuration": 10,
+          "instructions": "Focus on tongue placement for L and R sounds."
+        },
+        {
+          "id": "consonant_003",
+          "text": "TH - TH - TH: THE - THAT - THIS - THOSE",
+          "difficulty": 2,
+          "targetDuration": 10,
+          "instructions": "Place your tongue between your teeth for the TH sound."
+        },
+        {
+          "id": "consonant_004",
+          "text": "S - SH - S - SH: SIP - SHIP - SORE - SHORE",
+          "difficulty": 3,
+          "targetDuration": 12,
+          "instructions": "Notice the difference in tongue position."
+        },
+        {
+          "id": "consonant_005",
+          "text": "Buttercup, buttercup, buttercup",
+          "difficulty": 3,
+          "targetDuration": 8,
+          "instructions": "Practice rapid tongue movement for the 'TT' sound."
+        }
+      ]
+    },
+    {
+      "id": "functional",
+      "name": "Functional Phrases",
+      "description": "Everyday phrases for practical communication.",
+      "icon": "🏠",
+      "exercises": [
+        {
+          "id": "func_001",
+          "text": "My name is...",
+          "difficulty": 1,
+          "targetDuration": 4,
+          "instructions": "Practice introducing yourself clearly."
+        },
+        {
+          "id": "func_002",
+          "text": "Can you help me, please?",
+          "difficulty": 1,
+          "targetDuration": 4,
+          "instructions": "Use a polite, rising intonation."
+        },
+        {
+          "id": "func_003",
+          "text": "I need to make an appointment.",
+          "difficulty": 2,
+          "targetDuration": 5,
+          "instructions": "Speak clearly as if on a phone call."
+        },
+        {
+          "id": "func_004",
+          "text": "Could you repeat that more slowly?",
+          "difficulty": 2,
+          "targetDuration": 5,
+          "instructions": "A useful phrase for communication breakdowns."
+        },
+        {
+          "id": "func_005",
+          "text": "I would like to order a coffee with milk, please.",
+          "difficulty": 3,
+          "targetDuration": 7,
+          "instructions": "Practice ordering at a cafe."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "totalExercises": 29,
+    "difficultyLevels": {
+      "1": "Beginner",
+      "2": "Intermediate",
+      "3": "Advanced",
+      "4": "Expert"
+    },
+    "lastUpdated": "2025-12-27"
+  }
+}

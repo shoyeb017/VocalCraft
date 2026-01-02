@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "default",
+      "name": "Default Exercises",
+      "description": "Basic exercises for getting started.",
+      "icon": "📝",
+      "exercises": [
+        {
+          "id": "def_001",
+          "text": "Hello, how are you?",
+          "difficulty": 1,
+          "targetDuration": 3,
+          "instructions": "A simple greeting to warm up."
+        },
+        {
+          "id": "def_002",
+          "text": "The quick brown fox jumps over the lazy dog.",
+          "difficulty": 2,
+          "targetDuration": 5,
+          "instructions": "A classic pangram containing every letter."
+        },
+        {
+          "id": "def_003",
+          "text": "Good morning, nice to meet you.",
+          "difficulty": 1,
+          "targetDuration": 4,
+          "instructions": "Practice polite introductions."
+        },
+        {
+          "id": "def_004",
+          "text": "Thank you very much for your help.",
+          "difficulty": 1,
+          "targetDuration": 4,
+          "instructions": "Express gratitude clearly."
+        },
+        {
+          "id": "def_005",
+          "text": "Can you please repeat that?",
+          "difficulty": 1,
+          "targetDuration": 3,
+          "instructions": "A useful phrase for communication."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Default fallback exercises. Edit this file to add your own!",
+    "lastUpdated": "2025-12-27"
+  }
+}
