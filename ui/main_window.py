@@ -12,9 +12,13 @@ import customtkinter as ctk
 import threading
 import json
 import os
+import sys
 from typing import Optional, Callable, Dict, Any, List
 from abc import ABC, abstractmethod
 from datetime import datetime
+
+# Add parent directory to path for imports when running from ui folder
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Matplotlib imports for dashboard charts
 import matplotlib.pyplot as plt
