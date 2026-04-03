@@ -1821,9 +1821,25 @@ class VocalCraftMainWindow(ctk.CTk):
 
 
 def main() -> None:
-    """Application entry point for testing."""
-    app = VocalCraftMainWindow()
-    app.mainloop()
+    """Application entry point - starts with login window."""
+    from ui.login_window import LoginWindow
+    
+    def on_login_success(user_id: int, username: str) -> None:
+        """Called when user successfully logs in."""
+        login_window.destroy()
+        main_app = VocalCraftMainWindow(
+            user_id=user_id,
+            username=username,
+            on_logout=on_logout
+        )
+        main_app.mainloop()
+    
+    def on_logout() -> None:
+        """Called when user logs out - return to login screen."""
+        main()
+    
+    login_window = LoginWindow(on_login_success=on_login_success)
+    login_window.mainloop()
 
 
 if __name__ == "__main__":
