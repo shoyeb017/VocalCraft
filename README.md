@@ -9,6 +9,28 @@
 
 ---
 
+### Setup
+
+1. Clone or download this repository
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Note for Windows users**: If PyAudio fails to install, try:
+
+   ```bash
+   pip install pipwin
+   pipwin install pyaudio
+   ```
+
+4. Run the application:
+   ```bash
+   python main.py
+   ```
+
 ## Table of Contents
 
 1. [Project Overview](#1-project-overview)
